@@ -32,8 +32,8 @@ var adding_indices = function(img){
       var NDWI_image = img.normalizedDifference(['B3', 'B5']).rename('NDWI');
       
       var NDMI_image = img.normalizedDifference(['B5', 'B6']).rename('NDMI');
-        
-			var added_bands = img.addBands([NDVI_image,EVI_image,SAVI_image,NDWI_image,NDMI_image]);
+      
+      var added_bands = img.addBands([NDVI_image,EVI_image,SAVI_image,NDWI_image,NDMI_image]);
       
       var req_bands = added_bands.select(['B2','B3','B4','B5','NDVI','EVI','SAVI','NDWI','NDMI']);
       
