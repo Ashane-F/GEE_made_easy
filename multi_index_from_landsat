@@ -10,7 +10,7 @@ It is written in JavaScript and spans from line 14 to 41.
 
 *******
 
-```
+
 //bands
 var adding_indices = function(img){   
         
@@ -40,4 +40,4 @@ var adding_indices = function(img){
       return req_bands;
 };
 
-```
+
