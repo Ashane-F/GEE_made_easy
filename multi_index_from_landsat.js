@@ -1,4 +1,4 @@
-*******
+/*
 
 This file contains a function, which can create multi-index bands based on a Landsat image and eventually concatenate them together.
 
@@ -8,7 +8,7 @@ This function can be used to create an image collection too.
 
 It is written in JavaScript and spans from line 14 to 41.
 
-*******
+*/
 
 
 //bands
